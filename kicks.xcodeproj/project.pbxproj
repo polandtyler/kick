@@ -204,10 +204,10 @@
 		2F84B377217D519E004CB51A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2F028176217D58B700D99152 /* CustomTabBarController.swift */,
 				2F84B362217D5148004CB51A /* HomeViewController.swift */,
 				2F84B3C7217D532A004CB51A /* OnRunViewController.swift */,
 				2F84B364217D5148004CB51A /* RunLogViewController.swift */,
-				2F028176217D58B700D99152 /* CustomTabBarController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
