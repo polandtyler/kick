@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F028177217D58B700D99152 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F028176217D58B700D99152 /* CustomTabBarController.swift */; };
 		2F84B361217D5148004CB51A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84B360217D5148004CB51A /* AppDelegate.swift */; };
 		2F84B363217D5148004CB51A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84B362217D5148004CB51A /* HomeViewController.swift */; };
 		2F84B365217D5148004CB51A /* RunLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84B364217D5148004CB51A /* RunLogViewController.swift */; };
-		2F84B368217D5148004CB51A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F84B366217D5148004CB51A /* Main.storyboard */; };
 		2F84B36A217D5149004CB51A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F84B369217D5149004CB51A /* Assets.xcassets */; };
 		2F84B36D217D5149004CB51A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F84B36B217D5149004CB51A /* LaunchScreen.storyboard */; };
 		2F84B3A2217D5292004CB51A /* MontserratAlternates-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F84B37C217D528F004CB51A /* MontserratAlternates-Thin.ttf */; };
@@ -53,11 +53,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F028176217D58B700D99152 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		2F84B35D217D5148004CB51A /* kicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F84B360217D5148004CB51A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F84B362217D5148004CB51A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2F84B364217D5148004CB51A /* RunLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogViewController.swift; sourceTree = "<group>"; };
-		2F84B367217D5148004CB51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F84B369217D5149004CB51A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F84B36C217D5149004CB51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F84B36E217D5149004CB51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,7 +140,6 @@
 				2F84B369217D5149004CB51A /* Assets.xcassets */,
 				2F84B36E217D5149004CB51A /* Info.plist */,
 				2F84B36B217D5149004CB51A /* LaunchScreen.storyboard */,
-				2F84B366217D5148004CB51A /* Main.storyboard */,
 			);
 			path = kicks;
 			sourceTree = "<group>";
@@ -208,6 +207,7 @@
 				2F84B362217D5148004CB51A /* HomeViewController.swift */,
 				2F84B3C7217D532A004CB51A /* OnRunViewController.swift */,
 				2F84B364217D5148004CB51A /* RunLogViewController.swift */,
+				2F028176217D58B700D99152 /* CustomTabBarController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -319,7 +319,6 @@
 				2F84B3B7217D5292004CB51A /* MontserratAlternates-LightItalic.ttf in Resources */,
 				2F84B3BB217D5292004CB51A /* Montserrat-Regular.ttf in Resources */,
 				2F84B36A217D5149004CB51A /* Assets.xcassets in Resources */,
-				2F84B368217D5148004CB51A /* Main.storyboard in Resources */,
 				2F84B3A2217D5292004CB51A /* MontserratAlternates-Thin.ttf in Resources */,
 				2F84B3C3217D5292004CB51A /* MontserratAlternates-Medium.ttf in Resources */,
 				2F84B3B2217D5292004CB51A /* Montserrat-MediumItalic.ttf in Resources */,
@@ -343,6 +342,7 @@
 			files = (
 				2F84B365217D5148004CB51A /* RunLogViewController.swift in Sources */,
 				2F84B3C8217D532A004CB51A /* OnRunViewController.swift in Sources */,
+				2F028177217D58B700D99152 /* CustomTabBarController.swift in Sources */,
 				2F84B361217D5148004CB51A /* AppDelegate.swift in Sources */,
 				2F84B363217D5148004CB51A /* HomeViewController.swift in Sources */,
 			);
@@ -351,15 +351,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2F84B366217D5148004CB51A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F84B367217D5148004CB51A /* Base */,
-			);
-			name = Main.storyboard;
-			path = .;
-			sourceTree = "<group>";
-		};
 		2F84B36B217D5149004CB51A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
